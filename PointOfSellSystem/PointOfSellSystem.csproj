@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ED018938-FF4C-4FA2-B0D8-52CCF11C0BFD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PointOfSellSystem</RootNamespace>
+    <AssemblyName>PointOfSellSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="forms\admin\adminlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\admin\adminlogin.Designer.cs">
+      <DependentUpon>adminlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\admin\adminmain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\admin\adminmain.Designer.cs">
+      <DependentUpon>adminmain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\admin\CustomerInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\admin\CustomerInvoice.Designer.cs">
+      <DependentUpon>CustomerInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\admin\employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\admin\employee.Designer.cs">
+      <DependentUpon>employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\admin\home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\admin\home.Designer.cs">
+      <DependentUpon>home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\admin\QrCodeGenerator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\admin\QrCodeGenerator.Designer.cs">
+      <DependentUpon>QrCodeGenerator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\admin\reports\CustomerOrderReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\admin\reports\CustomerOrderReport.Designer.cs">
+      <DependentUpon>CustomerOrderReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\admin\reports\MonthlySalesReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\admin\reports\MonthlySalesReport.Designer.cs">
+      <DependentUpon>MonthlySalesReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\admin\Suppliers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\admin\Suppliers.Designer.cs">
+      <DependentUpon>Suppliers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\admin\terms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\admin\terms.Designer.cs">
+      <DependentUpon>terms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pointofsellDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pointofsellDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="forms\user\changepassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\user\changepassword.Designer.cs">
+      <DependentUpon>changepassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\user\userlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\user\userlogin.Designer.cs">
+      <DependentUpon>userlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\user\usermain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\user\usermain.Designer.cs">
+      <DependentUpon>usermain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\user\userorder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\user\userorder.Designer.cs">
+      <DependentUpon>userorder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\welcome.Designer.cs">
+      <DependentUpon>welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="forms\admin\adminlogin.resx">
+      <DependentUpon>adminlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\admin\adminmain.resx">
+      <DependentUpon>adminmain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\admin\CustomerInvoice.resx">
+      <DependentUpon>CustomerInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\admin\employee.resx">
+      <DependentUpon>employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\admin\home.resx">
+      <DependentUpon>home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\admin\QrCodeGenerator.resx">
+      <DependentUpon>QrCodeGenerator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\admin\reports\CustomerOrderReport.resx">
+      <DependentUpon>CustomerOrderReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\admin\reports\MonthlySalesReport.resx">
+      <DependentUpon>MonthlySalesReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\admin\Suppliers.resx">
+      <DependentUpon>Suppliers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\admin\terms.resx">
+      <DependentUpon>terms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\user\changepassword.resx">
+      <DependentUpon>changepassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\user\userlogin.resx">
+      <DependentUpon>userlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\user\usermain.resx">
+      <DependentUpon>usermain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\user\userorder.resx">
+      <DependentUpon>userorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\welcome.resx">
+      <DependentUpon>welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="pointofsellDataSet.xsc">
+      <DependentUpon>pointofsellDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="pointofsellDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pointofsellDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pointofsellDataSet.xss">
+      <DependentUpon>pointofsellDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="forms\admin\Resources\19-1User-512.png" />
+    <Content Include="forms\admin\Resources\2.JPG" />
+    <Content Include="forms\admin\Resources\5.jpg" />
+    <Content Include="forms\admin\Resources\585e4adacb11b227491c3392.png" />
+    <Content Include="forms\admin\Resources\image_preview.jpg" />
+    <Content Include="forms\admin\Resources\User_Gear_Cog_Configure_Control_Manage_Management-512.png" />
+    <Content Include="pointofsell.sdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.4.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 4.0 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

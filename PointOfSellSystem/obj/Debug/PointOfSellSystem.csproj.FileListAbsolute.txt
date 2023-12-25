@@ -1,0 +1,58 @@
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\bin\Debug\PointOfSellSystem.exe.config
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\bin\Debug\PointOfSellSystem.exe
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\bin\Debug\PointOfSellSystem.pdb
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.csprojResolveAssemblyReference.cache
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.Properties.Resources.resources
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.csproj.GenerateResource.Cache
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.exe
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.pdb
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.welcome.resources
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.Splash.resources
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.admin.terms.resources
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.user.userlogin.resources
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.admin.adminlogin.resources
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.admin.adminmain.resources
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.admin.home.resources
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.admin.QrCodeGenerator.resources
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.admin.employee.resources
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.user.changepassword.resources
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.user.usermain.resources
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.user.userorder.resources
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.admin.Suppliers.resources
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\bin\Debug\Interop.WMPLib.dll
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\obj\Debug\Interop.WMPLib.dll
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.csproj.ResolveComReference.cache
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.admin.CustomerInvoice.resources
+C:\Users\caasi\Documents\Visual Studio 2012\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.admin.reports.MonthlySalesReport.resources
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\bin\Debug\PointOfSellSystem.exe.config
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\Interop.WMPLib.dll
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.csproj.ResolveComReference.cache
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.exe
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.pdb
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.csprojResolveAssemblyReference.cache
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.admin.adminlogin.resources
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.admin.adminmain.resources
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.admin.CustomerInvoice.resources
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.admin.employee.resources
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.admin.home.resources
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.admin.QrCodeGenerator.resources
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.admin.reports.CustomerOrderReport.resources
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.admin.reports.MonthlySalesReport.resources
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.admin.Suppliers.resources
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.admin.terms.resources
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.user.changepassword.resources
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.user.userlogin.resources
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.user.usermain.resources
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.user.userorder.resources
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.forms.welcome.resources
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.Splash.resources
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.Properties.Resources.resources
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\obj\Debug\PointOfSellSystem.csproj.GenerateResource.Cache
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\bin\Debug\PointOfSellSystem.exe
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\bin\Debug\PointOfSellSystem.pdb
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\bin\Debug\Interop.WMPLib.dll
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\caasi\Desktop\PointOfSellSystem\PointOfSellSystem\bin\Debug\pointofsell.sdf
